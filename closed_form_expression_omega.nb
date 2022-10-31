@@ -1,0 +1,2758 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     99353,       2748]
+NotebookOptionsPosition[     98399,       2722]
+NotebookOutlinePosition[     98804,       2739]
+CellTagsIndexPosition[     98761,       2736]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["\[CapitalOmega]", "\[Sigma]1"], "=", 
+  RowBox[{"-", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"3", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+             SuperscriptBox["tao1", "2"]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", 
+               RowBox[{"(", 
+                RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", "tao1", " ", 
+             "tao2"}], "+", 
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+             SuperscriptBox["tao2", "2"]}], "-", 
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"2", " ", "tao1"}], "+", "tao2"}], ")"}]}]], " ", 
+             "tao1", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"2", " ", "tao1"}], "+", "tao2"}], ")"}]}], "-", 
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", 
+               RowBox[{"(", 
+                RowBox[{"tao1", "+", 
+                 RowBox[{"2", " ", "tao2"}]}], ")"}]}]], " ", "tao2", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", 
+               RowBox[{"2", " ", "tao2"}]}], ")"}]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "kappa0", " ", 
+               RowBox[{"(", 
+                RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+             RowBox[{"(", 
+              RowBox[{
+               SuperscriptBox["tao1", "2"], "+", 
+               RowBox[{"tao1", " ", "tao2"}], "+", 
+               SuperscriptBox["tao2", "2"]}], ")"}]}]}], ")"}]}]}], ")"}]}], 
+      ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox["sigma10", "4"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+      ")"}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.8761799701535177`*^9, 3.876179973036152*^9}, {
+   3.876180014726359*^9, 3.876180031955559*^9}, 3.876180305091219*^9, 
+   3.876180461905591*^9},
+ CellLabel->"In[4]:=",ExpressionUUID->"94e7c7b6-dfad-4ab9-a1f0-e82dc8d2e748"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"2", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+         SuperscriptBox["sigma20", "2"]}], "+", 
+        RowBox[{
+         SuperscriptBox["kappa0", "2"], " ", 
+         SuperscriptBox["sigma10", "2"], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+            SuperscriptBox["tao1", "2"]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", "tao1", " ", 
+            "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+            SuperscriptBox["tao2", "2"]}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"2", " ", "tao1"}], "+", "tao2"}], ")"}]}]], " ", 
+            "tao1", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", " ", "tao1"}], "+", "tao2"}], ")"}]}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", 
+                RowBox[{"2", " ", "tao2"}]}], ")"}]}]], " ", "tao2", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", 
+              RowBox[{"2", " ", "tao2"}]}], ")"}]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"2", " ", "kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              SuperscriptBox["tao1", "2"], "+", 
+              RowBox[{"tao1", " ", "tao2"}], "+", 
+              SuperscriptBox["tao2", "2"]}], ")"}]}]}], ")"}]}]}], ")"}]}], 
+     ")"}], "/", 
+    RowBox[{"(", 
+     RowBox[{
+      SuperscriptBox["kappa0", "2"], " ", 
+      SuperscriptBox["sigma10", "4"], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+     ")"}]}], ")"}]}]], "Output",
+ CellChangeTimes->{3.876180036263727*^9, 3.876180306320552*^9, 
+  3.876180463582911*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"de736ca8-96d3-42c1-8a09-c604a8bbe68b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["\[CapitalOmega]", "\[Sigma]2"], "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "3"}], "+", 
+        SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+      SuperscriptBox["sigma20", "2"], " ", 
+      SuperscriptBox["tao1", "2"]}], "-", 
+     RowBox[{"2", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"kappa0", " ", 
+        RowBox[{"(", 
+         RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+      SuperscriptBox["kappa0", "2"], " ", 
+      SuperscriptBox["sigma20", "2"], " ", "tao1", " ", "tao2"}], "+", 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "3"}], "+", 
+        SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+      SuperscriptBox["sigma20", "2"], " ", 
+      SuperscriptBox["tao2", "2"]}], "+", 
+     RowBox[{"2", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"kappa0", " ", 
+        RowBox[{"(", 
+         RowBox[{"tao1", "+", 
+          RowBox[{"2", " ", "tao2"}]}], ")"}]}]], " ", 
+      SuperscriptBox["sigma20", "2"], " ", "tao2", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["kappa0", "2"], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{"3", " ", "tao2"}]}], ")"}]}], "-", 
+     RowBox[{"2", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"kappa0", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", "tao1"}], "+", "tao2"}], ")"}]}]], " ", 
+      SuperscriptBox["sigma20", "2"], " ", "tao1", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "3"}], "+", 
+           SuperscriptBox["kappa0", "2"]}], ")"}], " ", "tao1"}], "-", 
+        RowBox[{
+         SuperscriptBox["kappa0", "2"], " ", "tao2"}]}], ")"}]}], "+", 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"2", " ", "kappa0", " ", 
+        RowBox[{"(", 
+         RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "6"}], " ", 
+         SuperscriptBox["kappa0", "2"], " ", 
+         SuperscriptBox["sigma10", "2"], " ", 
+         SuperscriptBox["tao1", "2"], " ", 
+         SuperscriptBox["tao2", "2"]}], "+", 
+        RowBox[{
+         SuperscriptBox["sigma20", "2"], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "3"}], "+", 
+              SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+            SuperscriptBox["tao1", "2"]}], "-", 
+           RowBox[{"2", " ", 
+            SuperscriptBox["kappa0", "2"], " ", "tao1", " ", "tao2"}], "+", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "3"}], "+", 
+              SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+            SuperscriptBox["tao2", "2"]}]}], ")"}]}]}], ")"}]}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{
+     SuperscriptBox["kappa0", "2"], " ", 
+     SuperscriptBox["sigma20", "4"], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+    ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.8761803360005407`*^9, 3.876180348247719*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"ee08fa8b-7b5a-4403-8d16-bb326af42d9a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "3"}], "+", 
+       SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+     SuperscriptBox["sigma20", "2"], " ", 
+     SuperscriptBox["tao1", "2"]}], "-", 
+    RowBox[{"2", " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"kappa0", " ", 
+       RowBox[{"(", 
+        RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+     SuperscriptBox["kappa0", "2"], " ", 
+     SuperscriptBox["sigma20", "2"], " ", "tao1", " ", "tao2"}], "+", 
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "3"}], "+", 
+       SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+     SuperscriptBox["sigma20", "2"], " ", 
+     SuperscriptBox["tao2", "2"]}], "+", 
+    RowBox[{"2", " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"kappa0", " ", 
+       RowBox[{"(", 
+        RowBox[{"tao1", "+", 
+         RowBox[{"2", " ", "tao2"}]}], ")"}]}]], " ", 
+     SuperscriptBox["sigma20", "2"], " ", "tao2", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+       RowBox[{"3", " ", "tao2"}]}], ")"}]}], "-", 
+    RowBox[{"2", " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"kappa0", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", " ", "tao1"}], "+", "tao2"}], ")"}]}]], " ", 
+     SuperscriptBox["sigma20", "2"], " ", "tao1", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "3"}], "+", 
+          SuperscriptBox["kappa0", "2"]}], ")"}], " ", "tao1"}], "-", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", "tao2"}]}], ")"}]}], "+", 
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"2", " ", "kappa0", " ", 
+       RowBox[{"(", 
+        RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "6"}], " ", 
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox["sigma10", "2"], " ", 
+        SuperscriptBox["tao1", "2"], " ", 
+        SuperscriptBox["tao2", "2"]}], "+", 
+       RowBox[{
+        SuperscriptBox["sigma20", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "3"}], "+", 
+             SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+           SuperscriptBox["tao1", "2"]}], "-", 
+          RowBox[{"2", " ", 
+           SuperscriptBox["kappa0", "2"], " ", "tao1", " ", "tao2"}], "+", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "3"}], "+", 
+             SuperscriptBox["kappa0", "2"]}], ")"}], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}]}]}], ")"}]}]}], ")"}], "/", 
+  
+  RowBox[{"(", 
+   RowBox[{
+    SuperscriptBox["kappa0", "2"], " ", 
+    SuperscriptBox["sigma20", "4"], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+   ")"}]}]], "Output",
+ CellChangeTimes->{3.8761803492103767`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"c04f0f5f-8ef8-4de4-b905-dd575adb84d0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["\[CapitalOmega]", "\[Kappa]"], "=", 
+  RowBox[{
+   FractionBox["1", 
+    RowBox[{
+     SuperscriptBox["sigma10", "2"], " ", 
+     SuperscriptBox["sigma20", "2"]}]], 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"2", " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", "1"}], "+", 
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+             SuperscriptBox["sigma20", "2"]}], "+", 
+            RowBox[{
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+             SuperscriptBox["kappa0", "2"], " ", 
+             SuperscriptBox["sigma10", "2"], " ", 
+             SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+          SuperscriptBox["tao2", "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            FractionBox[
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"sigma20", "-", 
+                RowBox[{
+                 SuperscriptBox["\[ExponentialE]", 
+                  RowBox[{
+                   RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", 
+                 "sigma20"}]}], ")"}], "2"], 
+             SuperscriptBox["kappa0", "2"]], "+", 
+            RowBox[{
+             SuperscriptBox["sigma10", "2"], " ", 
+             SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "2"]}],
+        ")"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"2", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+        SuperscriptBox["tao1", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "2"]}], 
+     "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao1"}]], " ", 
+        SuperscriptBox["tao1", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"2", " ", 
+              SuperscriptBox["sigma20", "2"]}], "+", 
+             RowBox[{
+              SuperscriptBox["sigma10", "2"], " ", 
+              RowBox[{"(", 
+               RowBox[{"1", "+", 
+                RowBox[{"4", " ", "kappa0", " ", "tao1"}], "+", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox["kappa0", "2"], " ", 
+                 SuperscriptBox["tao1", "2"]}]}], ")"}]}]}], ")"}]}]}], ")"}],
+         " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+       ")"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "kappa0", " ", 
+           SuperscriptBox["sigma10", "2"], " ", "tao1", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao1"}]}], ")"}]}]}], ")"}], " ", "tao2",
+         " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+       ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}]}], ")"}], "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+     "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}]}], ")"}], "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+     "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"3", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+            SuperscriptBox["tao1", "2"]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", 
+            SuperscriptBox["tao2", "2"]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], ")"}], 
+      "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "4"]}], 
+     "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"3", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+            SuperscriptBox["tao1", "2"]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", 
+            SuperscriptBox["tao2", "2"]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], ")"}], 
+      "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "4"]}], 
+     "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "3"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "3"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}], "2"]}]}], ")"}]}], ")"}], 
+      "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+     "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox[
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"sigma20", "-", 
+              RowBox[{
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{
+                 RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+             ")"}], "2"], 
+           SuperscriptBox["kappa0", "2"]], "+", 
+          RowBox[{
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "3"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "3"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}], "2"]}]}], ")"}]}], ")"}], 
+      "/", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+     "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], "-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], " ", 
+        SuperscriptBox["sigma10", "2"], " ", 
+        SuperscriptBox["sigma20", "2"], " ", "tao1", " ", "tao2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]]}], " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao1"}]}], ")"}], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}]}], ")"}], 
+      "/", 
+      RowBox[{"(", 
+       RowBox[{"kappa0", " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+       ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["sigma10", "2"], " ", 
+        SuperscriptBox["sigma20", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]]}], " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao1"}]}], ")"}], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}]}], ")"}], 
+      "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}]}], 
+       ")"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao2"}]], " ", "tao1", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "kappa0", " ", 
+           SuperscriptBox["sigma10", "2"], " ", "tao2", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}]}], ")"}], 
+      "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+       ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "kappa0", " ", 
+           SuperscriptBox["sigma10", "2"], " ", "tao1", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao1"}]}], ")"}]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             SuperscriptBox["tao1", "2"], "-", 
+             SuperscriptBox["tao2", "2"]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}],
+        ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao2"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "kappa0", " ", 
+           SuperscriptBox["sigma10", "2"], " ", "tao2", " ", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["tao1", "2"]}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", 
+              SuperscriptBox["tao1", "2"]}], "+", 
+             SuperscriptBox["tao2", "2"]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "3"]}], 
+       ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["sigma10", "2"], " ", 
+        SuperscriptBox["sigma20", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", 
+             RowBox[{"2", " ", "kappa0", " ", "tao1"}], "+", 
+             RowBox[{
+              SuperscriptBox["kappa0", "2"], " ", 
+              SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+           RowBox[{"(", 
+            RowBox[{"2", "+", 
+             RowBox[{"2", " ", "kappa0", " ", "tao2"}], "+", 
+             RowBox[{
+              SuperscriptBox["kappa0", "2"], " ", 
+              SuperscriptBox["tao2", "2"]}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}]}], 
+       ")"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"kappa0", " ", "tao2"}]], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+           SuperscriptBox["kappa0", "2"], " ", 
+           SuperscriptBox["sigma10", "2"], " ", 
+           SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+        SuperscriptBox["tao2", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["sigma20", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"2", " ", 
+              SuperscriptBox["sigma20", "2"]}], "+", 
+             RowBox[{
+              SuperscriptBox["sigma10", "2"], " ", 
+              RowBox[{"(", 
+               RowBox[{"1", "+", 
+                RowBox[{"4", " ", "kappa0", " ", "tao2"}], "+", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox["kappa0", "2"], " ", 
+                 SuperscriptBox["tao2", "2"]}]}], ")"}]}]}], ")"}]}]}], 
+         ")"}]}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["kappa0", "2"], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", 
+              RowBox[{"(", 
+               RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+       ")"}]}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.8761803819735737`*^9, 3.876180382174623*^9}, 
+   3.876180479735759*^9},
+ CellLabel->"In[5]:=",ExpressionUUID->"30c3962f-9d6e-40db-b968-ba5fa2b48712"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", 
+   RowBox[{
+    SuperscriptBox["sigma10", "2"], " ", 
+    SuperscriptBox["sigma20", "2"]}]], 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"-", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"2", " ", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", "1"}], "+", 
+               SuperscriptBox["\[ExponentialE]", 
+                RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+            SuperscriptBox["sigma20", "2"]}], "+", 
+           RowBox[{
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+            SuperscriptBox["kappa0", "2"], " ", 
+            SuperscriptBox["sigma10", "2"], " ", 
+            SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+         SuperscriptBox["tao2", "2"], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           FractionBox[
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"sigma20", "-", 
+               RowBox[{
+                SuperscriptBox["\[ExponentialE]", 
+                 RowBox[{
+                  RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}],
+               ")"}], "2"], 
+            SuperscriptBox["kappa0", "2"]], "+", 
+           RowBox[{
+            SuperscriptBox["sigma10", "2"], " ", 
+            SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "2"]}], 
+      ")"}]}], "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"2", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+       SuperscriptBox["tao1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "2"]}], 
+    "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"kappa0", " ", "tao1"}]], " ", 
+       SuperscriptBox["tao1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"2", " ", 
+             SuperscriptBox["sigma20", "2"]}], "+", 
+            RowBox[{
+             SuperscriptBox["sigma10", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{"1", "+", 
+               RowBox[{"4", " ", "kappa0", " ", "tao1"}], "+", 
+               RowBox[{"2", " ", 
+                SuperscriptBox["kappa0", "2"], " ", 
+                SuperscriptBox["tao1", "2"]}]}], ")"}]}]}], ")"}]}]}], ")"}], 
+       " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+      ")"}]}], "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "kappa0", " ", 
+          SuperscriptBox["sigma10", "2"], " ", "tao1", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao1"}]}], ")"}]}]}], ")"}], " ", "tao2", 
+       " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+      ")"}]}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+          SuperscriptBox["tao1", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["tao2", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+    "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+          SuperscriptBox["tao1", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["tao2", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+    "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], ")"}], 
+     "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "4"]}], 
+    "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"3", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+           SuperscriptBox["tao1", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", 
+           SuperscriptBox["tao2", "2"]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], ")"}], 
+     "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "4"]}], 
+    "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao2"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+          SuperscriptBox["tao1", "3"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["tao2", "3"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}], "2"]}]}], ")"}]}], ")"}], 
+     "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+    "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"sigma20", "-", 
+             RowBox[{
+              SuperscriptBox["\[ExponentialE]", 
+               RowBox[{
+                RowBox[{"-", "kappa0"}], " ", "tao1"}]], " ", "sigma20"}]}], 
+            ")"}], "2"], 
+          SuperscriptBox["kappa0", "2"]], "+", 
+         RowBox[{
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+          SuperscriptBox["tao1", "3"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["tao2", "3"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}], "2"]}]}], ")"}]}], ")"}], 
+     "/", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+         RowBox[{"(", 
+          RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+    "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao1"}]], "-", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], " ", 
+       SuperscriptBox["sigma10", "2"], " ", 
+       SuperscriptBox["sigma20", "2"], " ", "tao1", " ", "tao2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]]}], " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao1"}]}], ")"}], " ", "tao2"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"kappa0", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+      ")"}]}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["sigma10", "2"], " ", 
+       SuperscriptBox["sigma20", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]]}], " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao1"}]}], ")"}], " ", "tao2"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}]}], ")"}]}],
+     "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"kappa0", " ", "tao2"}]], " ", "tao1", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "kappa0", " ", 
+          SuperscriptBox["sigma10", "2"], " ", "tao2", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+      ")"}]}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "kappa0", " ", 
+          SuperscriptBox["sigma10", "2"], " ", "tao1", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao1"}]}], ")"}]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao2", "2"]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", 
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]]}], " ", 
+          SuperscriptBox["tao1", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["tao2", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            SuperscriptBox["tao1", "2"], "-", 
+            SuperscriptBox["tao2", "2"]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao1"}]]}], " ", "tao1"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}]}], ")"}], "3"]}], 
+      ")"}]}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"4", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"kappa0", " ", "tao2"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", 
+            SuperscriptBox["\[ExponentialE]", 
+             RowBox[{"kappa0", " ", "tao2"}]]}], ")"}], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "kappa0", " ", 
+          SuperscriptBox["sigma10", "2"], " ", "tao2", " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"kappa0", " ", "tao2"}]}], ")"}]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["tao1", "2"]}], "-", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          SuperscriptBox["tao2", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", 
+             SuperscriptBox["tao1", "2"]}], "+", 
+            SuperscriptBox["tao2", "2"]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "3"]}], 
+      ")"}]}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["sigma10", "2"], " ", 
+       SuperscriptBox["sigma20", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", " ", 
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"tao1", "-", "tao2"}], ")"}]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          RowBox[{"(", 
+           RowBox[{"2", "+", 
+            RowBox[{"2", " ", "kappa0", " ", "tao1"}], "+", 
+            RowBox[{
+             SuperscriptBox["kappa0", "2"], " ", 
+             SuperscriptBox["tao1", "2"]}]}], ")"}], " ", "tao2"}], "-", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1", " ", 
+          RowBox[{"(", 
+           RowBox[{"2", "+", 
+            RowBox[{"2", " ", "kappa0", " ", "tao2"}], "+", 
+            RowBox[{
+             SuperscriptBox["kappa0", "2"], " ", 
+             SuperscriptBox["tao2", "2"]}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", 
+            RowBox[{"(", 
+             RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}]}], ")"}]}],
+     "-", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"kappa0", " ", "tao2"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "1"}], "+", 
+             SuperscriptBox["\[ExponentialE]", 
+              RowBox[{"kappa0", " ", "tao1"}]]}], ")"}], "2"], " ", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"2", " ", "kappa0", " ", "tao1"}]], " ", 
+          SuperscriptBox["kappa0", "2"], " ", 
+          SuperscriptBox["sigma10", "2"], " ", 
+          SuperscriptBox["tao1", "2"]}]}], ")"}], " ", 
+       SuperscriptBox["tao2", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox["sigma20", "2"]}], "+", 
+         RowBox[{
+          SuperscriptBox["\[ExponentialE]", 
+           RowBox[{"kappa0", " ", "tao2"}]], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"2", " ", 
+             SuperscriptBox["sigma20", "2"]}], "+", 
+            RowBox[{
+             SuperscriptBox["sigma10", "2"], " ", 
+             RowBox[{"(", 
+              RowBox[{"1", "+", 
+               RowBox[{"4", " ", "kappa0", " ", "tao2"}], "+", 
+               RowBox[{"2", " ", 
+                SuperscriptBox["kappa0", "2"], " ", 
+                SuperscriptBox["tao2", "2"]}]}], ")"}]}]}], ")"}]}]}], 
+        ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["kappa0", "2"], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao1"}]], " ", "tao1"}], "-", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", "tao2"}]], " ", "tao2"}], "+", 
+          RowBox[{
+           SuperscriptBox["\[ExponentialE]", 
+            RowBox[{"kappa0", " ", 
+             RowBox[{"(", 
+              RowBox[{"tao1", "+", "tao2"}], ")"}]}]], " ", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"-", "tao1"}], "+", "tao2"}], ")"}]}]}], ")"}], "2"]}], 
+      ")"}]}]}], ")"}]}]], "Output",
+ CellChangeTimes->{3.8761804809834423`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"37f73e0b-cb28-4bc8-b4a4-ae0fcf4fdf69"]
+}, Open  ]]
+},
+WindowSize->{808, 702},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) \
+(2020\:5e743\:670813\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"728cd6a0-5023-4ec4-a23a-52ed0c3f2945"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3764, 98, 261, "Input",ExpressionUUID->"94e7c7b6-dfad-4ab9-a1f0-e82dc8d2e748"],
+Cell[4347, 122, 3530, 95, 251, "Output",ExpressionUUID->"de736ca8-96d3-42c1-8a09-c604a8bbe68b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7914, 222, 4116, 115, 351, "Input",ExpressionUUID->"ee08fa8b-7b5a-4403-8d16-bb326af42d9a"],
+Cell[12033, 339, 3919, 114, 298, "Output",ExpressionUUID->"c04f0f5f-8ef8-4de4-b905-dd575adb84d0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15989, 458, 41825, 1132, 3826, "Input",ExpressionUUID->"30c3962f-9d6e-40db-b968-ba5fa2b48712"],
+Cell[57817, 1592, 40566, 1127, 3310, "Output",ExpressionUUID->"37f73e0b-cb28-4bc8-b4a4-ae0fcf4fdf69"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
