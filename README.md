@@ -1,1 +1,1 @@
-# 《基于中国利率市场的多因子HJM模型》文章中Omega的表达式
+# 文件closed_form_expression_omega.nb给出《基于中国利率市场的多因子HJM模型》文章中Omega的表达式。
